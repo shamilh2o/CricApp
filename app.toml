@@ -1,0 +1,13 @@
+[App]
+Name = "ai.h2o.cric-app"
+Version = "0.0.1"
+Title = "Cric App"
+Description = "One place with cricket info."
+InstanceLifecycle = "MANAGED"
+Tags = ["H2O_TOOLS"]
+LongDescription = "about.md"
+
+[Runtime]
+Module = "cric_app.app"
+EnableOIDC = true
+RoutingMode = "BASE_URL"
